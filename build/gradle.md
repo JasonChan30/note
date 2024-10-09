@@ -24,7 +24,8 @@ Settings 跟 build file 里面使用的语言
 Gradle会在configuration阶段找到对应的.gradle file，进行配置  
 
 #### Content
-在build file里面主要有一些项目信息，依赖，仓库信息，对应task script
+在build file可以定义plugins，定义依赖，定义依赖来源，还有一些属性（项目属性，插件用到的属性等），还可以引用一些task，还可以写一些script（属性赋值，call方法，定义一些变量）  
+{} block是一种方法调用，接受一些闭包啥的
 
 ### Life Cycle
 ![image](https://github.com/user-attachments/assets/d06045d3-e5b7-4517-b36a-d81d7c5e3c90)
